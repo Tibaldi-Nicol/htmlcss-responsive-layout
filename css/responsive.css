@@ -34,8 +34,62 @@ body{
 
 
     .quick-notes ul li{
-        width: calc(100%/3);
+        width: calc(100% / 3);
+    }
+
+    .social-networks button{
+        width: 20%;
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .presentation img{
+        float: left;
+        margin-right: 20px;
     }
 }
 
+
+@media screen and (min-width: 992px){
+    .recipe-card{
+        display: flex;
+    }
+
+    .recipe-name{
+        font-size: 50px;
+    }
+
+    .recipe-video{
+        width: 70%;
+        max-height: 450px;
+    }
+
+    .recipe-info{
+        width: 30%;
+
+
+    }
+
+    .quick-notes ul{
+        display: block;
+    }
+
+    .quick-notes ul li{
+        width: 100%;
+    }
+
+    .social-networks .label{
+        display: inline;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        align-items: center;
+    }
+    
+}
   
